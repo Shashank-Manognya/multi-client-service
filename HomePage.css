@@ -1,0 +1,22 @@
+/* src/components/HomePage.css */
+
+/* Style the homepage */
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  color: #555;
+}

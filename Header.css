@@ -1,0 +1,77 @@
+/* src/components/HomePage.css */
+
+/* General layout */
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #343a40;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Service list container */
+.services-container {
+  margin-top: 30px;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  width: 220px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h4 {
+  margin-top: 0;
+  color: #343a40;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Book Now button */
+.book-btn {
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #555;
+}
